@@ -28,7 +28,7 @@ public class LoginController  {
 		}
 	}
 */	
-	@GetMapping("/users")
+	@GetMapping("/allusers")
 	public java.util.List<User> users() {
 		return userserviceinterface.findAll();
 	}
